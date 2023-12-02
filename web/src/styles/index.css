@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	color: white;
+}
+
+.card-background {
+	background: linear-gradient(90deg, #232830 0%, #2b3138 100%);
+}
+
+.card-border {
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dashed-border {
+	border: dashed 2px #ffffff0d;
+}
+
+.phone-framer-inner-shadow {
+	z-index: 9;
+}
